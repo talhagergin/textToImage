@@ -10,9 +10,22 @@
 		0AE99E592D2F3A1300F04954 /* textToImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textToImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0ADD259C2D307A7D00A7A50A /* Exceptions for "textToImage" folder in "textToImage" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0AE99E582D2F3A1300F04954 /* textToImage */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0AE99E5B2D2F3A1300F04954 /* textToImage */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0ADD259C2D307A7D00A7A50A /* Exceptions for "textToImage" folder in "textToImage" target */,
+			);
 			path = textToImage;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,8 @@
 				DEVELOPMENT_TEAM = YP367N62QD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = textToImage/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Uygulama oluşturulan fotoğrafları kaydetmesine izin verin.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +299,8 @@
 				DEVELOPMENT_TEAM = YP367N62QD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = textToImage/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Uygulama oluşturulan fotoğrafları kaydetmesine izin verin.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
